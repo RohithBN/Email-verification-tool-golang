@@ -27,27 +27,5 @@ DMARC is an email authentication protocol that builds upon SPF and DKIM. It help
 - Verifies DMARC configuration and retrieves the policy
 - Returns structured data about the domain's email configuration
 
-## Installation
-
-```bash
-go get github.com/RohithBN/email-verifier
-```
 
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Security Considerations
-
-- This tool performs DNS lookups which may take time depending on network conditions
-- Rate limiting might be necessary when checking multiple domains
-- Consider implementing timeouts for DNS queries in production environments
